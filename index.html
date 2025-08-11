@@ -1,45 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS-intro</title>
-    <!-- Підв'язкування зовнішніх стилів -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <style>
-        /* Внутрішні стилі */
-        /* /h1 {
-            color: lawngreen;
-            text-align: center;
-            font-size: 64px;
-        }
-        h2 {
-            color: #ff0025
-        }
-
-        p {
-            color: rgb(255, 0, 255); 
-            text-align: justify;
-        } */
-
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS-intro</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <style>
     </style>
 </head>
 <body>
     <h1>Lorem ipsum dolor sit amet.</h1>
 
-
-    <!-- Інлайн стилі --> застосовуються для того, щоб нашвидкоруш перевірити код чи буде і як буде працювати. Загалом в кінцевій роботі застосовувати не можна
-    <h2 style="font-size: 16px; text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, accusamus?</p>
-    <p>Nihil at hic reprehenderit unde. Eos quaerat esse natus quam.</p>
-    <p>Pariatur iusto dignissimos similique eius? Dicta incidunt repellendus architecto omnis?</p>
-
     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+    <p class="annotation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, accusamus?</p>
+    <p>Nihil at hic reprehenderit unde. Eos quaerat esse natus quam.</p>
+    <p>Pariatur iusto dignissimos similique eius? Dicta incidunt repellendus architecto omnis?</p>
+
+    <h2 class="annotation">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, accusamus?</p>
     <p>Nihil at hic reprehenderit unde. Eos quaerat esse natus quam.</p>
     <p>Pariatur iusto dignissimos similique eius? Dicta incidunt repellendus architecto omnis?</p>
 
+
+
+    <!-- Тут специфічність - 1000 -->
+    <button style="color: green;" id="Subscribe-btn"> Subscribe
+
+    </button> 
     
 </body>
 </html>
