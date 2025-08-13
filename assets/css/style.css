@@ -1,48 +1,63 @@
-/* Селектор тегу (типу) Є пріоритетість селекторів (властифість "специфічність) вони мають значення "Селектор id специфічність від 0.0.1. до 1.0.0*/
+/* Блокова модель box-model (без background-color); */
 
-body {
-    font-family: sans-serif;
-    border: 5px red solid;
-    text-align: center;
+body{
+    /* text-align: right; */
 }
 
-h1 {
-    color: blue;
-    font-family: initial; /*  вимикає спадковість */
-    border: inherit; /*  вмикає спадковість */
-}
-p  {
-    font-size: 10px;
-}
-/* Селектор класу */
-.annotation{
-    font-size: 20px;
+p {
+    width: 200px;
+    height: 300px;
+    /* background-color:bisque ; */
+    border: 1px solid red;
+    padding: 20px;
+    margin: 20px;
+    /* display: inline; */
 
-}
-
-/* Селектор ідентифікатора */
-#Subscribe-btn {
-    color: red;
+    display: inline-block;
+    /* text-align: initial; */
+    vertical-align: top;
+    
 }
 
+a{
+    width: 100px;
+    height: 50;
+    border: 1px solid green;
+    padding: 20px;
+    margin: 20px;
+
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Приклад */
 
 a{
     color: inherit;
-    text-decoration: none;
+    text-decoration: none
+}
+.nan-link-item{
+display: inline;
 }
 
-
-/* Каскадність  якщо одна і та сама властивість визначена для одного і того самого селектора, то приорітетна та, що оголошена останньою */
-
-
-
-/* subscribe-btn:      kebeb-case
-subscribeBtn :      camelCase (
-                    lowerCamelCase
-                    UpperCamelCase (PascalCase)
-                    )
-subscribe_btn:      snake_case 
-Це способи написання селекторів
-*/
-
-/* Специфічність - якщо специфічність одна і та сама, властивість записана в різних по спецтфічності селекторі то пріоритетна та, що оголошена останньою  */
