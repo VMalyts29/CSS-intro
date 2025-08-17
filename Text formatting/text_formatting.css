@@ -1,0 +1,41 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 16px;
+
+}
+
+
+p {
+    /* text-align: center; */
+    font-size: 1rem;
+    /* font-family: ; */
+
+
+}
+
+/* 
+Абсолютні одиниці вимірювання - px 
+
+Відносні - em (1em = 100% від шрифта батьківського елемента)
+         - rem (1rem = 100% від шрифта рутового/найголовнішого батьківського (наприклад html) елемента 
+         - vw (1vw - 1% видимої частини вікна браузера)
+*/
+
+h1 {
+    font-size: 2rem;
+}
+
+div {
+    font-size: 1.5rem;
+}
+
+article {
+    font-size: 2.25rem;
+}
+
+.VW1 {
+    font-size: 4vw;
+}
