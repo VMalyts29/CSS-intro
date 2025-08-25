@@ -1,16 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 html {
     font-size: 16px;
 }
 
+
+
+
 body {
-    font-size: 16px;
+    /* font-size: 16px; */
+    font-family: DynaPuff, Helvetica, sans-serif;
+    /* font-weight: ;
+    font-style:  */
+    line-height: 1;
+}
+
+div {
+    white-space: pre;
 
 }
 
+h2 {
+    border: 2px solid red;
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px;
+}
 
 p {
     /* text-align: center; */
-    font-size: 1rem;
+    /* font-size: 1rem; */
     /* font-family: ; */
 
 
@@ -21,10 +42,11 @@ p {
 
 Відносні - em (1em = 100% від шрифта батьківського елемента)
          - rem (1rem = 100% від шрифта рутового/найголовнішого батьківського (наприклад html) елемента 
-         - vw (1vw - 1% видимої частини вікна браузера)
+         - vw (1vw - 1% видимої частини ширини вікна браузера)
+         - vh (1vh - 1% видимої частини висоти вікна браузера)
 */
 
-h1 {
+/* h1 {
     font-size: 2rem;
 }
 
@@ -38,4 +60,4 @@ article {
 
 .VW1 {
     font-size: 4vw;
-}
+} */
