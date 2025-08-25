@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.outerBlock {
+    border: 5px solid blue;
+    height: 400px;
+}
+
+.innerBlock {
+    border: 5px solid red;
+    padding: 10px;
+    font-size: 2rem;
+    /* margin: 20px; */
+}
+
+.flexParent {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;  /* рухаємо по ширині maim-axis*/
+    align-items: flex-start;    /* рухаємо по висоті across-axis */ 
+    gap: 20px;
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: row wrap; */
+}
+
+.flexChild {
+
+}
+
+.child3 {
+    /* margin-left: auto; */
+}
